@@ -4,7 +4,7 @@ package transeversalmain;
 
 import transeversal.datos.Conexion;
 import java.sql.*;
-public class TranseversalJulian {
+public class TranseversalMain {
 
     
     public static void main(String[] args) {
