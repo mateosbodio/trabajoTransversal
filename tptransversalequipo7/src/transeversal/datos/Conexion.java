@@ -1,5 +1,5 @@
 
-package transeversal.persistencia;
+package transeversal.datos;
 
 import java.sql.*;
 

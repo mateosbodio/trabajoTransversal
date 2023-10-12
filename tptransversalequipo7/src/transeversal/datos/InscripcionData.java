@@ -1,4 +1,4 @@
-package transeversal.persistencia;
+package transeversal.datos;
 
 import java.sql.*;
 import java.util.ArrayList;
@@ -10,13 +10,13 @@ import transeversal.entidades.Materia;
 
 
 
-public class InscripcionGestion {
+public class InscripcionData {
 
     private final Connection con;
-    private AlumnoGestion aluGestion;
-    private MateriaGestion matGestion;
+    private AlumnoData aluGestion;
+    private MateriaData matGestion;
 
-    public InscripcionGestion() {
+    public InscripcionData() {
         con = Conexion.getConexion();
     }
 

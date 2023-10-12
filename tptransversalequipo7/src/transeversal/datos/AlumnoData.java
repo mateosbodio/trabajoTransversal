@@ -1,4 +1,4 @@
-package transeversal.persistencia;
+package transeversal.datos;
 
 
 import java.sql.*;
@@ -8,11 +8,11 @@ import javax.swing.JOptionPane;
 import transeversal.entidades.Alumno;
 
 
-public class AlumnoGestion {
+public class AlumnoData {
 
     private final Connection con;
 
-    public AlumnoGestion() {
+    public AlumnoData() {
         con = Conexion.getConexion();
     }
 
