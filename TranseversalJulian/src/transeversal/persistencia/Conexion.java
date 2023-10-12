@@ -1,27 +1,26 @@
 
-package transeversaljulian.persistencia;
+package transeversal.persistencia;
 
 import java.sql.*;
+
 import javax.swing.JOptionPane;
 
 /**
- *
- * @author Julian Development
+ 
+ * @author Julian Rios
  */
-
 public class Conexion {
     
-    private static final String url = "jdbc:mariadb://localhost/tp13_ulp";
-    private static final String usuario = "root";
-    private static final String password = "";
-    private static Conexion conexion;// = null;
-
+    private static String url = "jdbc:mariadb://localhost/universidadulp";    
+    private static String usuario = "root";
+    private static String password = "";
+    private static Conexion conexion;
     private Conexion() {
         try {
             Class.forName("org.mariadb.jdbc.Driver");
             System.out.println("carga driver ok");
         } catch (ClassNotFoundException ex) {
-           JOptionPane.showMessageDialog(null, "Error al cargar el Driver");
+           JOptionPane.showMessageDialog(null, "Error carga driver");
         }
     }
 
@@ -40,5 +39,5 @@ public class Conexion {
         }
         return con;
     }
-
+    
 }

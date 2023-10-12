@@ -1,16 +1,12 @@
-package transeversaljulian.persistencia;
+package transeversal.persistencia;
 
 
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 import javax.swing.JOptionPane;
-import transeversaljulian.entidades.Alumno;
+import transeversal.entidades.Alumno;
 
-/**
- *
- * @author Julian Development
- */
 
 public class AlumnoGestion {
 

@@ -1,17 +1,14 @@
-package transeversaljulian.persistencia;
+package transeversal.persistencia;
 
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 import javax.swing.JOptionPane;
-import transeversaljulian.entidades.Alumno;
-import transeversaljulian.entidades.Inscripcion;
-import transeversaljulian.entidades.Materia;
+import transeversal.entidades.Alumno;
+import transeversal.entidades.Inscripcion;
+import transeversal.entidades.Materia;
 
-/**
- *
- * @author Julian Development
- */
+
 
 public class InscripcionGestion {
 

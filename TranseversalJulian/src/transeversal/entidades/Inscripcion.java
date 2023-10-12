@@ -1,10 +1,7 @@
 
-package transeversaljulian.entidades;
+package transeversal.entidades;
 
-/**
- 
- * @author Julian Development
- */
+
 public class Inscripcion {
     
     private int idInscripto;

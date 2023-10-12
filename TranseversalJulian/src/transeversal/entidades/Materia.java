@@ -1,10 +1,6 @@
 
-package transeversaljulian.entidades;
+package transeversal.entidades;
 
-/**
- 
- * @author Julian Development
- */
 public class Materia {
 
     private int idMateria;

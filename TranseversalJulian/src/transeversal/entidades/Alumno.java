@@ -1,12 +1,8 @@
 
-package transeversaljulian.entidades;
+package transeversal.entidades;
 
 import java.time.LocalDate;
 
-/**
- 
- * @author Julian Development
- */
 public class Alumno {
     
      private int idAlumno;
