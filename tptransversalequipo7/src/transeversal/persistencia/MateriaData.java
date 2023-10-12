@@ -6,11 +6,11 @@ import java.util.List;
 import javax.swing.JOptionPane;
 import transeversal.entidades.Materia;
 
-public class MateriaGestion {
+public class MateriaData {
 
     private Connection con;
 
-    public MateriaGestion() {
+    public MateriaData() {
         con = Conexion.getConexion();
     }
 

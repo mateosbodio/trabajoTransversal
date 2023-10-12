@@ -5,23 +5,7 @@ import java.sql.*;
 
 import javax.swing.JOptionPane;
 
-/**
-<<<<<<<< Updated upstream:src/transeversal/persistencia/Conexion.java
-<<<<<<<< Updated upstream:src/transeversaljulian/persistencia/Conexion.java
- *
- * @author Julian Development
- */
 
-========
- 
- * @author Julian Rios
- */
->>>>>>>> Stashed changes:src/transeversal/persistencia/Conexion.java
-========
- 
- * @author Julian Rios
- */
->>>>>>>> Stashed changes:tptransversalequipo7/src/transeversal/persistencia/Conexion.java
 public class Conexion {
     
     private static String url = "jdbc:mariadb://localhost/universidadulptransversal";    
