@@ -4,10 +4,6 @@ package transeversaljulian.persistencia;
 import java.sql.*;
 import javax.swing.JOptionPane;
 
-/**
- *
- * @author Julian Development
- */
 
 public class Conexion {
     
