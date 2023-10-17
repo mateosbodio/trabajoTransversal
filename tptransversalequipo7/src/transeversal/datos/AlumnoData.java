@@ -72,7 +72,7 @@ public class AlumnoData {
 
     public Alumno buscarAlumno(int idAlumno) {
         Alumno alumno = null;
-        String buscarAlumno = "SELECT dni, apellido, nombre, fechaNacimiento, estado FROM alumno WHERE idAlumno=?";
+        String buscarAlumno = "SELECT dni, apellido, nombre, fechaNacimiento, estado FROM alumno WHERE idAlumno=? AND estado=1";
         try (PreparedStatement ps = con.prepareStatement(buscarAlumno)) {
             ps.setInt(1, idAlumno);
             ResultSet rs = ps.executeQuery();
@@ -98,7 +98,7 @@ public class AlumnoData {
 
     public Alumno buscarAlumnoPorDni(int dni) {
         Alumno alumno = null;
-        String buscarDni = "SELECT idAlumno, dni, apellido, nombre, fechaNacimiento, estado FROM alumno WHERE dni=?";
+        String buscarDni = "SELECT idAlumno, dni, apellido, nombre, fechaNacimiento, estado FROM alumno WHERE dni=? AND estado=1";
         try (PreparedStatement ps = con.prepareStatement(buscarDni)) {
             ps.setInt(1, dni);
             ResultSet rs = ps.executeQuery();
